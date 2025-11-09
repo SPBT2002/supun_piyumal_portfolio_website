@@ -185,6 +185,7 @@ body
 .about-text h2
 {
     font-size: 60px;
+    margin-left: 8%;
 }
 .about-text h2 span
 {
@@ -197,12 +198,14 @@ body
     color: #fff;
     line-height: 1.7;
     margin: 15px 0 30px;
+    margin-left: 8%;
 }
 .about-text p{
     color: aliceblue;
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 4rem;
+    margin-left: 8%;
 }
 
 .sub-title {
@@ -303,7 +306,8 @@ section {
 .progress-line.python span { width: 50%; }
 .progress-line.react span { width: 75%; }
 .progress-line.mongodb span { width: 50%; }
-.progress-line.nodejs span { width: 50%; }
+.progress-line.expressjs span { width: 70%; }
+.progress-line.nodejs span { width: 65%; }
 
 .progress-line span::after {
   position: absolute;
@@ -324,7 +328,8 @@ section {
 .progress-line.python span::after { content: "50%"; }
 .progress-line.react span::after { content: "75%"; }
 .progress-line.mongodb span::after { content: "50%"; }
-.progress-line.nodejs span::after { content: "50%"; }
+.progress-line.expressjs span::after { content: "70%"; }
+.progress-line.nodejs span::after { content: "65%"; }
 
 .progress-line span::before {
   content: "";
@@ -571,6 +576,19 @@ section {
         padding: 0;
         max-width: 80%;
         margin: 0 auto;
+    }
+    .about-text h2 {
+        font-size: 48px;
+        margin: 20px 0;
+    }
+    .about-text h4 {
+        font-size: 24px;
+        margin: 10px 0 20px;
+    }
+    .about-text p {
+        margin: 0 auto 40px;
+        font-size: 18px;
+        line-height: 1.6;
     }
     .home-content h1 {
         font-size: 42px;

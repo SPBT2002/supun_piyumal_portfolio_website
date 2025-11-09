@@ -301,12 +301,12 @@ section {
 }
 
 .progress-line.html span { width: 90%; }
-.progress-line.css span { width: 60%; }
+.progress-line.css span { width: 80%; }
 .progress-line.javascript span { width: 70%; }
-.progress-line.python span { width: 50%; }
+.progress-line.python span { width: 60%; }
 .progress-line.react span { width: 75%; }
 .progress-line.mongodb span { width: 50%; }
-.progress-line.expressjs span { width: 70%; }
+.progress-line.angular span { width: 70%; }
 .progress-line.nodejs span { width: 65%; }
 
 .progress-line span::after {
@@ -323,12 +323,12 @@ section {
 }
 
 .progress-line.html span::after { content: "90%"; }
-.progress-line.css span::after { content: "60%"; }
+.progress-line.css span::after { content: "80%"; }
 .progress-line.javascript span::after { content: "70%"; }
-.progress-line.python span::after { content: "50%"; }
+.progress-line.python span::after { content: "60%"; }
 .progress-line.react span::after { content: "75%"; }
 .progress-line.mongodb span::after { content: "50%"; }
-.progress-line.expressjs span::after { content: "70%"; }
+.progress-line.angular span::after { content: "70%"; }
 .progress-line.nodejs span::after { content: "65%"; }
 
 .progress-line span::before {
@@ -403,6 +403,7 @@ section {
 .path-2 { animation: animate-path2 1s 1s linear forwards; }
 .path-3 { animation: animate-path3 1s 1s linear forwards; }
 .path-4 { animation: animate-path4 1s 1s linear forwards; }
+.path-5 { animation: animate-path5 1s 1s linear forwards; }
 
 @keyframes animate-bar {
   100% { stroke-dashoffset: -1; }
@@ -411,6 +412,7 @@ section {
 @keyframes animate-path2 { 100% { stroke-dashoffset: 175; } }
 @keyframes animate-path3 { 100% { stroke-dashoffset: 125; } }
 @keyframes animate-path4 { 100% { stroke-dashoffset: 75; } }
+@keyframes animate-path5 { 100% { stroke-dashoffset: 75; } }
 
 .radial-bar .percentage {
   position: absolute;

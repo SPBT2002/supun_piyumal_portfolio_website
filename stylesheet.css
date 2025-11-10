@@ -604,6 +604,141 @@ section {
   to { opacity: 1; transform: translateY(0) scale(1); }
 }
 
+/* Section title */
+.section-title {
+  text-align:center;
+  font-size:45px;
+  font-weight:700;
+  margin-bottom:60px;
+  color:#fff;
+}
+.section-title span{
+  color:#00eaff;
+}
+
+/* Contact layout */
+.contact-section {
+  padding:100px 0;
+  background:#050b14;
+}
+
+.contact-container {
+  width:85%;
+  margin:auto;
+  display:flex;
+  gap:50px;
+  flex-wrap:wrap;
+}
+
+/* Left contact info */
+.contact-info {
+  flex:1;
+  color:#fff;
+}
+
+.contact-info h3 {
+  font-size:28px;
+  margin-bottom:15px;
+}
+
+.contact-info p {
+  color:#ddd;
+  margin-bottom:25px;
+}
+
+.info-card {
+  display:flex;
+  align-items:center;
+  background:#0f1a25;
+  padding:20px;
+  border-radius:12px;
+  margin-bottom:18px;
+  transition:0.3s;
+  border:1px solid transparent;
+}
+
+.info-card:hover{
+  transform:translateY(-5px);
+  border-color:#00eaff;
+}
+
+.icon-box {
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  background:#06202f;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:22px;
+  color:#00eaff;
+  margin-right:18px;
+}
+
+/* Form section */
+.contact-form {
+  flex:1;
+  background:#0f1a25;
+  padding:35px;
+  border-radius:12px;
+  color:#fff;
+  border:1px solid #132634;
+}
+
+.contact-form label {
+  display:block;
+  font-size:14px;
+  margin:10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width:100%;
+  padding:14px;
+  border-radius:8px;
+  background:#0c1826;
+  border:1px solid #1e3547;
+  color:#fff;
+  margin-bottom:15px;
+  font-size:15px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color:#00eaff;
+  outline:none;
+}
+
+/* Button */
+.btn-submit {
+  width:100%;
+  background:#00eaff;
+  border:none;
+  padding:15px;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:18px;
+  font-weight:600;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:10px;
+  transition:0.3s ease;
+}
+
+.btn-submit:hover {
+  background:#00c8e0;
+  transform:translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width:900px){
+  .contact-container{
+    flex-direction:column;
+  }
+}
+
+
 /* ========== RESPONSIVE FIXES ========== */
 @media (max-width: 992px) {
   .Technical-bars .bar {

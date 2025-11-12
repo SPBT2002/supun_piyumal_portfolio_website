@@ -16,7 +16,7 @@ body
     top: 0;
     left: 0;
     width: 100%;
-    padding: 40px 8%;
+    padding: 30px 8%;
     background: #051129;
     display: flex;
     justify-content: space-between;
@@ -71,13 +71,35 @@ body
     padding: 0px 8% 0;
     gap: 1.5rem
 }
-.home-img img
-{
-    max-width: 800px;
-    height: auto;
-    width: 120%;
-    border-radius: 8px;
-    padding-top: 80px;
+
+.home-img img {
+    width: 55%;
+    border-radius: 50%;
+    box-shadow: 0 0 50px #0ef;
+    cursor: pointer;
+    animation: floatImage 4s ease-in-out infinite;
+    transition: 0.4s ease;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.home-img img:hover {
+  
+    box-shadow: 0 0 25px #0ef,
+                0 0 35px #0ef,
+                0 0 40px #0ef,
+                0 0 50px #0ef;
+}
+@keyframes floatImage {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2.0rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 
@@ -177,6 +199,7 @@ body
     align-items: center;
     background-color: #090610;
     gap: 1.5rem;
+    padding: 50px 6% 0;
 }
 .about-img img
 {

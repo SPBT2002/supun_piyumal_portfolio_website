@@ -192,6 +192,8 @@ body
     0 0 40px rgb(244, 183, 252);
 }
 
+/* About section */
+
 .about
 {
     display: grid;
@@ -235,22 +237,46 @@ body
     margin-left: 8%;
 }
 
-.sub-title {
-    text-align: center;
-    font-size: 60px;
-    padding-bottom: 70px; 
-}
-.sub-title span {
-    color: #0ef;
-}
-
 
 
 section {
     display: flex;
     flex-wrap: wrap;
     padding-top: 150px;
+}
 
+.sub-title {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 30px; 
+}
+.sub-title span {
+    color: #0ef;
+}
+
+/* Skills Section Layout */
+.skills-section {
+  padding: 150px 5% 100px;
+  background-color: #090610;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 60px;
+  width: 100%;
+  max-width: 1600px;
+}
+
+.container1.technical,
+.container1.professional {
+  flex: 1 1 600px;
+  background-color: transparent;
 }
 
 .container1 {
@@ -478,10 +504,22 @@ section {
   opacity: 0;
 }
 
+
+/* Projects section */
+.projects-section {
+  padding: 120px 8% 100px;
+  background-color: #090610;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 .sub-title-2 {
-    text-align: center;
-    font-size: 60px;
-    padding-bottom: 70px; 
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 60px;
+  position: relative;
 }
 .sub-title-2 span {
     color: #0ef;
@@ -546,7 +584,7 @@ section {
   margin: 0;
   font-size: 20px;
   font-weight: 700;
-  color: #eaf7ff;
+  color: #0ef;
 }
 .card-desc {
   margin: 0;
@@ -565,7 +603,7 @@ section {
   padding: 6px 12px;
   border-radius: 999px;
   background: rgba(0,67,94,0.12);
-  border: 1px solid rgba(0,211,255,0.06);
+  border: 1px solid rgb(27, 118, 124);
   margin-right: 8px;
   margin-bottom: 8px;
   color: #bfefff;
@@ -580,7 +618,10 @@ section {
 /* Code button */
 .btn-code {
   margin-top: auto; /* pushes button to bottom */
-  display: inline-flex;
+  display: inline-block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   align-items: center;
   gap: 8px;
   text-decoration: none;
@@ -630,7 +671,7 @@ section {
 /* Section title */
 .section-title {
   text-align:center;
-  font-size:45px;
+  font-size:60px;
   font-weight:700;
   margin-bottom:60px;
   color:#fff;

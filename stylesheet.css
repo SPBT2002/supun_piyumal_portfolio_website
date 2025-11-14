@@ -203,14 +203,37 @@ body
     gap: 1.5rem;
     padding: 50px 6% 0;
 }
-.about-img img
-{
-    padding-bottom: 10%;
-    max-width: 800px;
-    height: auto;
-    width: 120%;
-    border-radius: 8px;
+
+
+.about-img img {
+    width: 55%;
+    border-radius: 50%;
+    box-shadow: 0 0 50px #0ef;
+    cursor: pointer;
+    transition: 0.4s ease;
+    margin-left: 10%;
+    margin-top: 10%;
 }
+
+.about-img img:hover {
+  
+    box-shadow: 0 0 25px #0ef,
+                0 0 35px #0ef,
+                0 0 40px #0ef,
+                0 0 50px #0ef;
+}
+@keyframes floatImage {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2.0rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
 .about-text h2
 {
     font-size: 60px;

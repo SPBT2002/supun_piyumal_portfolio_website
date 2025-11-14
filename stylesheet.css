@@ -203,14 +203,32 @@ body
     gap: 1.5rem;
     padding: 50px 6% 0;
 }
-.about-img img
+
+
+.about-img img 
 {
-    padding-bottom: 10%;
-    max-width: 800px;
+    margin-top: 10%;
+    width: 50%;
     height: auto;
-    width: 120%;
-    border-radius: 8px;
+    border-radius: 10%;
+    box-shadow: 0 0 50px #0ef;
+    cursor: pointer;
+    transition: 0.4s ease;
+    margin-left: 10%;
+    margin-top: 10%;
+    transition: transform 0.5s;
+    
 }
+
+.about-img img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px #0ef,
+                0 0 25px #0ef,
+                0 0 30px #0ef,
+                0 0 35px #0ef;
+}
+
+
 .about-text h2
 {
     font-size: 60px;
@@ -310,6 +328,7 @@ section {
   flex: 1 1 45%;
   background: #112e42;
   padding: 20px;
+  border: 3px solid rgba(7, 77, 91, 0.16);
   border-radius: 10px;
   box-shadow: 0 0 8px #0ef3;
   transition: transform 0.3s;
@@ -319,7 +338,7 @@ section {
 .Technical-bars .bar:hover {
   transform: translateY(-5px);
   box-shadow: 0 20px 40px rgba(2,10,20,0.6);
-  border-color: rgba(0,211,255,0.36);
+  border-color: rgba(144, 219, 234, 0.36);
 }
 
 

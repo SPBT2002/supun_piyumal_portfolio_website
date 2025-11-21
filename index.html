@@ -10,13 +10,6 @@
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
 </script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "xEejYHd7zQM4rdrWJ",
-      });
-   })();
-</script>
 
 </head>
 <body>
@@ -289,22 +282,33 @@
     </div>
 
     <!-- Right side form -->
-    <form class="contact-form">
+    <form class="contact-form" id="contact-form">
+      <!-- Web3Forms Access Key - Replace with your actual access key -->
+      <input type="hidden" name="access_key" value="b174e1a7-58c5-4435-96ad-25f2fd13a07d">
+      
+      <!-- Optional: Redirect after submission -->
+      <input type="hidden" name="redirect" value="https://web3forms.com/success">
+      
+      <!-- Optional: Custom subject line -->
+      <input type="hidden" name="subject" value="New Contact Form Submission from Portfolio">
+      
       <label>Your Name</label>
-      <input type="text" id="from_name" placeholder="John Doe">
+      <input type="text" name="name" id="from_name" placeholder="John Doe" required>
 
       <label>Your Email</label>
-      <input type="email" id="from_email" placeholder="john@example.com">
+      <input type="email" name="email" id="from_email" placeholder="john@example.com" required>
 
       <label>Subject</label>
-      <input type="text" id="subject" placeholder="Subject...">
+      <input type="text" name="custom_subject" id="subject" placeholder="Subject...">
 
       <label>Message</label>
-      <textarea id="message" rows="7" placeholder="Your message here..."></textarea>
+      <textarea name="message" id="message" rows="7" placeholder="Your message here..." required></textarea>
 
-      <button type="submit" class="btn-submit">
-        <i class="fas fa-paper-plane"></i> Send Message
+      <button type="submit" class="btn-submit" id="submit-btn">
+        <i class="bx bx-paper-plane"></i> <span id="btn-text">Send Message</span>
       </button>
+      
+      <div id="form-response" style="display: none; margin-top: 15px; padding: 12px; border-radius: 8px; text-align: center;"></div>
     </form>
 
   </div>

@@ -109,7 +109,7 @@ body
 }
 
 #menu-icon {
-    font-size: 36px;
+    font-size: 28px;
     color: #0ef;
     cursor: pointer;
     display: none;
@@ -363,7 +363,7 @@ body
 .about-img img 
 {
     width: 70%;
-    max-width: 450px;
+    max-width: 350px;
     height: auto;
     border-radius: 10%;
     box-shadow: 0 0 50px #0ef;
@@ -374,14 +374,14 @@ body
 @media (max-width: 1200px) {
     .about-img img {
         width: 75%;
-        max-width: 400px;
+        max-width: 300px;
     }
 }
 
 @media (max-width: 992px) {
     .about-img img {
         width: 65%;
-        max-width: 350px;
+        max-width: 280px;
     }
 }
 
@@ -399,19 +399,19 @@ body
 
 .about-text h2
 {
-    font-size: 60px;
+    font-size: 42px;
     margin-bottom: 10px;
 }
 
 @media (max-width: 1200px) {
     .about-text h2 {
-        font-size: 52px;
+        font-size: 36px;
     }
 }
 
 @media (max-width: 992px) {
     .about-text h2 {
-        font-size: 48px;
+        font-size: 32px;
     }
 }
 .about-text h2 span
@@ -420,7 +420,7 @@ body
 }
 .about-text h4
 {
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 600;
     color: #fff;
     line-height: 1.7;
@@ -429,18 +429,18 @@ body
 
 @media (max-width: 1200px) {
     .about-text h4 {
-        font-size: 26px;
+        font-size: 20px;
     }
 }
 
 @media (max-width: 992px) {
     .about-text h4 {
-        font-size: 24px;
+        font-size: 18px;
     }
 }
 .about-text p{
     color: aliceblue;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.8;
     margin-bottom: 2rem;
     text-align: justify;
@@ -448,13 +448,13 @@ body
 
 @media (max-width: 1200px) {
     .about-text p {
-        font-size: 18px;
+        font-size: 15px;
     }
 }
 
 @media (max-width: 992px) {
     .about-text p {
-        font-size: 18px;
+        font-size: 14px;
         text-align: center;
     }
 }
@@ -487,25 +487,25 @@ section {
 
 .sub-title {
     text-align: center;
-    font-size: 60px;
+    font-size: 42px;
     padding-bottom: 30px; 
 }
 
 @media (max-width: 1200px) {
     .sub-title {
-        font-size: 52px;
+        font-size: 36px;
     }
 }
 
 @media (max-width: 992px) {
     .sub-title {
-        font-size: 44px;
+        font-size: 32px;
     }
 }
 
 @media (max-width: 768px) {
     .sub-title {
-        font-size: 36px;
+        font-size: 28px;
         padding-bottom: 20px;
     }
 }
@@ -515,7 +515,7 @@ section {
 
 /* Skills Section Layout */
 .skills-section {
-  padding: 150px 5% 100px;
+  padding: 100px 5% 80px;
   background-color: #090610;
   display: flex;
   flex-direction: column;
@@ -599,7 +599,7 @@ section {
 }
 
 .bar {
-  font-size: 23px;
+  font-size: 18px;
 }
 
 .Technical-bars .bar {
@@ -626,7 +626,7 @@ section {
 }
 
 .Technical-bars .bar .info span {
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 500;
   animation: showText 0.5s 1s linear forwards;
   opacity: 0;
@@ -725,8 +725,8 @@ section {
 
 .radial-bar {
   position: relative;
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   margin: 20px;
 }
 
@@ -737,8 +737,8 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-90deg);
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
 }
 
 .progress-bar {
@@ -780,7 +780,7 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   color: #fff;
   animation: showText 0.5s 1s linear forwards;
@@ -794,7 +794,7 @@ section {
   left: 50%;
   bottom: -10%;
   transform: translateX(-50%);
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 500;
   color: #ededed;
   animation: showText 0.5s 1s linear forwards;
@@ -804,7 +804,7 @@ section {
 
 /* Projects section */
 .projects-section {
-  padding: 120px 8% 100px;
+  padding: 100px 8% 80px;
   background-color: #090610;
   display: flex;
   flex-direction: column;
@@ -814,7 +814,7 @@ section {
 
 @media (max-width: 1200px) {
     .projects-section {
-        padding: 100px 6% 80px;
+        padding: 80px 6% 60px;
     }
 }
 
@@ -830,7 +830,7 @@ section {
     }
 }
 .sub-title-2 {
-  font-size: 60px;
+  font-size: 42px;
   color: #fff;
   text-align: center;
   margin-bottom: 60px;
@@ -839,28 +839,28 @@ section {
 
 @media (max-width: 1200px) {
     .sub-title-2 {
-        font-size: 52px;
+        font-size: 36px;
         margin-bottom: 50px;
     }
 }
 
 @media (max-width: 992px) {
     .sub-title-2 {
-        font-size: 44px;
+        font-size: 32px;
         margin-bottom: 40px;
     }
 }
 
 @media (max-width: 768px) {
     .sub-title-2 {
-        font-size: 36px;
+        font-size: 28px;
         margin-bottom: 30px;
     }
 }
 
 @media (max-width: 480px) {
     .sub-title-2 {
-        font-size: 32px;
+        font-size: 26px;
         margin-bottom: 25px;
     }
 }
@@ -872,7 +872,7 @@ section {
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
+  gap: 30px;
   padding-top: 10px;
   padding-bottom: 60px;
   width: 100%;
@@ -882,7 +882,7 @@ section {
 @media (max-width: 1400px) {
     .projects-grid {
         grid-template-columns: repeat(3, 1fr);
-        gap: 35px;
+        gap: 25px;
     }
 }
 
@@ -917,7 +917,7 @@ section {
   transition: transform 380ms cubic-bezier(.2,.9,.2,1), box-shadow 380ms ease, border-color 380ms ease;
   display: flex;
   flex-direction: column;
-  min-height: 360px;
+  min-height: 300px;
   width: 99%;
   will-change: transform;
 }
@@ -931,7 +931,7 @@ section {
 
 /* Media area */
 .card-media {
-  height: 320px;
+  height: 260px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -948,22 +948,22 @@ section {
 
 /* Body content */
 .card-body {
-  padding: 30px 25px;
+  padding: 22px 20px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
   flex: 1;
 }
 .card-title {
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: #0ef;
 }
 .card-desc {
   margin: 0;
   color: #bcd6e6;
-  font-size: 14.6px;
+  font-size: 13px;
   opacity: 0.95;
 }
 
@@ -973,8 +973,8 @@ section {
 }
 .tag {
   display: inline-block;
-  font-size: 13px;
-  padding: 6px 12px;
+  font-size: 11px;
+  padding: 5px 10px;
   border-radius: 999px;
   background: rgba(0,67,94,0.12);
   border: 1px solid rgb(27, 118, 124);
@@ -1001,10 +1001,11 @@ section {
   text-decoration: none;
   color: #00d3ff;
   border: 3px solid rgba(0,211,255,0.16);
-  padding: 8px 14px;
+  padding: 7px 12px;
   border-radius: 8px;
   width: fit-content;
   font-weight: 600;
+  font-size: 14px;
   transition: background 260ms ease, color 260ms ease, transform 200ms ease, box-shadow 260ms ease;
 }
 .btn-code:focus, .btn-code:hover {
@@ -1019,7 +1020,7 @@ section {
   .projects-grid { grid-template-columns: 1fr; }
   .card-media { height: 200px; }
   .wrap { padding: 0 18px; }
-  .page-header h1 { font-size: 36px; }
+  .page-header h1 { font-size: 28px; }
 }
 
 @media (min-width: 1400px) {
@@ -1045,7 +1046,7 @@ section {
 /* Contact Section title */
 .section-title {
   text-align:center;
-  font-size:60px;
+  font-size:42px;
   font-weight:700;
   margin-bottom:60px;
   color:#fff;
@@ -1053,28 +1054,28 @@ section {
 
 @media (max-width: 1200px) {
     .section-title {
-        font-size: 52px;
+        font-size: 36px;
         margin-bottom: 50px;
     }
 }
 
 @media (max-width: 992px) {
     .section-title {
-        font-size: 44px;
+        font-size: 32px;
         margin-bottom: 40px;
     }
 }
 
 @media (max-width: 768px) {
     .section-title {
-        font-size: 36px;
+        font-size: 28px;
         margin-bottom: 30px;
     }
 }
 
 @media (max-width: 480px) {
     .section-title {
-        font-size: 32px;
+        font-size: 26px;
         margin-bottom: 25px;
     }
 }
@@ -1084,13 +1085,13 @@ section {
 
 /* Contact layout */
 .contact-section {
-  padding:100px 0;
+  padding:80px 0;
   background:#050b14;
 }
 
 @media (max-width: 1200px) {
     .contact-section {
-        padding: 80px 0;
+        padding: 70px 0;
     }
 }
 
@@ -1156,13 +1157,13 @@ section {
 }
 
 .contact-info h3 {
-  font-size:28px;
+  font-size:22px;
   margin-bottom:15px;
 }
 
 @media (max-width: 992px) {
     .contact-info h3 {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 
@@ -1181,13 +1182,13 @@ section {
 .contact-info p {
   color:#ddd;
   margin-bottom:25px;
-  font-size: 18px;
+  font-size: 15px;
   
 }
 
 @media (max-width: 992px) {
     .contact-info p {
-        font-size: 17px;
+        font-size: 14px;
     }
 }
 
@@ -1208,7 +1209,7 @@ section {
   display:flex;
   align-items:center;
   background:#0f1a25;
-  padding:20px;
+  padding:16px;
   border-radius:12px;
   margin-bottom:18px;
   transition:0.3s;
@@ -1217,7 +1218,7 @@ section {
 
 @media (max-width: 768px) {
     .info-card {
-        padding: 18px;
+        padding: 14px;
         margin-bottom: 15px;
     }
 }
@@ -1241,24 +1242,24 @@ section {
 
 .info-card > div:last-child h4 {
   margin: 0 0 5px 0;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   color: #fff;
 }
 
 .info-card > div:last-child p {
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
   color: #a8b2d1;
   word-break: break-word;
 }
 
 @media (max-width: 1200px) {
   .info-card > div:last-child h4 {
-    font-size: 17px;
+    font-size: 15px;
   }
   .info-card > div:last-child p {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -1299,14 +1300,14 @@ section {
 }
 
 .icon-box {
-  width:55px;
-  height:55px;
+  width:48px;
+  height:48px;
   border-radius:50%;
   background:#06202f;
   display:flex;
   justify-content:center;
   align-items:center;
-  font-size:22px;
+  font-size:20px;
   color:#00eaff;
   margin-right:18px;
   flex-shrink: 0;
@@ -1314,9 +1315,9 @@ section {
 
 @media (max-width: 768px) {
     .icon-box {
-        width: 50px;
-        height: 50px;
-        font-size: 20px;
+        width: 44px;
+        height: 44px;
+        font-size: 18px;
         margin-right: 15px;
     }
 }
@@ -1334,7 +1335,7 @@ section {
 .contact-form {
   flex:1;
   background:#0f1a25;
-  padding:35px;
+  padding:28px;
   border-radius:12px;
   color:#fff;
   border:1px solid #132634;
@@ -1342,7 +1343,7 @@ section {
 
 @media (max-width: 768px) {
     .contact-form {
-        padding: 30px;
+        padding: 24px;
     }
 }
 
@@ -1354,13 +1355,13 @@ section {
 
 .contact-form label {
   display:block;
-  font-size:18px;
+  font-size:16px;
   margin:10px 0 5px;
 }
 
 @media (max-width: 768px) {
     .contact-form label {
-        font-size: 16px;
+        font-size: 15px;
     }
 }
 
@@ -1374,20 +1375,20 @@ section {
 .contact-form input,
 .contact-form textarea {
   width:100%;
-  padding:15px;
+  padding:12px;
   border-radius:8px;
   background:#0c1826;
   border:1px solid #1e3547;
   color:#fff;
   margin-bottom:15px;
-  font-size:15px;
+  font-size:14px;
 }
 
 @media (max-width: 768px) {
     .contact-form input,
     .contact-form textarea {
-        padding: 12px;
-        font-size: 14px;
+        padding: 10px;
+        font-size: 13px;
     }
 }
 
@@ -1412,10 +1413,10 @@ section {
   background:#00eaff;
   border:none;
   margin-top:60px;
-  padding:15px;
+  padding:12px;
   border-radius:8px;
   cursor:pointer;
-  font-size:18px;
+  font-size:16px;
   font-weight:600;
   display:flex;
   justify-content:center;
@@ -1427,8 +1428,8 @@ section {
 @media (max-width: 768px) {
     .btn-submit {
         margin-top: 40px;
-        padding: 12px;
-        font-size: 16px;
+        padding: 11px;
+        font-size: 15px;
     }
 }
 
@@ -1470,7 +1471,7 @@ section {
   }
 
   .heading1 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .Technical-bars .bar {
@@ -1479,7 +1480,7 @@ section {
   }
 
   .Technical-bars .info span {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   /* PROFESSIONAL SKILLS FIX */
@@ -1490,27 +1491,27 @@ section {
   }
 
   .radial-bar {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
   }
 
   .radial-bar svg {
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
   }
 
   .radial-bar .percentage {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .radial-bar .text {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
 @media (max-width: 480px) {
   .heading1 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .Technical-bars .bar {
@@ -1925,7 +1926,7 @@ section {
 
 .footer {
     background: linear-gradient(135deg, #051129 0%, #0a1e3d 100%);
-    padding: 60px 8% 30px;
+    padding: 50px 8% 25px;
     color: #e6f1ff;
     border-top: 2px solid rgba(0, 239, 255, 0.2);
 }
@@ -1944,7 +1945,7 @@ section {
 }
 
 .footer-logo {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 700;
     color: #0ef;
     margin-bottom: 15px;
@@ -1952,7 +1953,7 @@ section {
 
 .footer-description {
     color: #a8b2d1;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.8;
     margin-bottom: 25px;
 }
@@ -1966,12 +1967,12 @@ section {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     background: rgba(0, 239, 255, 0.1);
     border: 2px solid #0ef;
     border-radius: 50%;
-    font-size: 24px;
+    font-size: 20px;
     color: #0ef;
     transition: all 0.3s ease;
 }
@@ -1991,7 +1992,7 @@ section {
 }
 
 .footer-heading {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     color: #fff;
     margin-bottom: 20px;
@@ -2015,14 +2016,14 @@ section {
 .footer-links ul li a {
     color: #a8b2d1;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     transition: all 0.3s ease;
     display: flex;
     align-items: center;
 }
 
 .footer-links ul li a i {
-    font-size: 18px;
+    font-size: 16px;
     margin-right: 8px;
     transition: transform 0.3s ease;
 }
@@ -2045,7 +2046,7 @@ section {
 }
 
 .footer-contact-item i {
-    font-size: 24px;
+    font-size: 20px;
     color: #0ef;
     min-width: 30px;
     margin-top: 0;
@@ -2061,7 +2062,7 @@ section {
 
 .footer-contact-item h4 {
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     margin: 0 0 5px 0;
 }
@@ -2069,7 +2070,7 @@ section {
 .footer-contact-item a {
     color: #a8b2d1;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
     transition: color 0.3s ease;
     word-break: break-word;
 }
@@ -2080,7 +2081,7 @@ section {
 
 .footer-contact-item p {
     color: #a8b2d1;
-    font-size: 15px;
+    font-size: 14px;
     margin: 0;
 }
 
@@ -2094,7 +2095,7 @@ section {
 
 .footer-bottom p {
     color: #a8b2d1;
-    font-size: 15px;
+    font-size: 14px;
     margin: 8px 0;
 }
 
@@ -2112,7 +2113,7 @@ section {
 
 .footer-credit i {
     color: #ff4444;
-    font-size: 16px;
+    font-size: 14px;
     animation: heartbeat 1.5s ease-in-out infinite;
 }
 
@@ -2131,11 +2132,11 @@ section {
 /* Footer Responsive Design */
 @media (max-width: 1024px) {
     .footer {
-        padding: 50px 5% 25px;
+        padding: 40px 5% 20px;
     }
     
     .footer-container {
-        gap: 40px;
+        gap: 35px;
     }
 }
 
@@ -2155,11 +2156,11 @@ section {
     }
     
     .footer-logo {
-        font-size: 24px;
+        font-size: 22px;
     }
     
     .footer-description {
-        font-size: 15px;
+        font-size: 14px;
     }
     
     .footer-social {
@@ -2167,13 +2168,13 @@ section {
     }
     
     .footer-social a {
-        width: 42px;
-        height: 42px;
-        font-size: 22px;
+        width: 38px;
+        height: 38px;
+        font-size: 19px;
     }
     
     .footer-heading {
-        font-size: 20px;
+        font-size: 18px;
     }
     
     .footer-heading::after {
@@ -2209,24 +2210,24 @@ section {
     
     .footer-contact-item i {
         margin-top: 0;
-        font-size: 22px;
+        font-size: 19px;
         min-width: 28px;
     }
     
     .footer-contact-item h4 {
         margin: 0 0 3px 0;
-        font-size: 15px;
+        font-size: 14px;
     }
     
     .footer-contact-item a,
     .footer-contact-item p {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 1.4;
         margin: 0;
     }
     
     .footer-bottom p {
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 
@@ -2240,27 +2241,27 @@ section {
     }
     
     .footer-logo {
-        font-size: 22px;
+        font-size: 20px;
     }
     
     .footer-description {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 1.6;
     }
     
     .footer-social a {
-        width: 40px;
-        height: 40px;
-        font-size: 20px;
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
     }
     
     .footer-heading {
-        font-size: 18px;
+        font-size: 17px;
         margin-bottom: 15px;
     }
     
     .footer-links ul li a {
-        font-size: 15px;
+        font-size: 14px;
     }
     
     .footer-contact-item {
@@ -2274,13 +2275,13 @@ section {
     }
     
     .footer-contact-item i {
-        font-size: 20px;
+        font-size: 18px;
         min-width: 26px;
         margin-top: 0;
     }
     
     .footer-contact-item h4 {
-        font-size: 14px;
+        font-size: 13px;
         margin: 0 0 2px 0;
     }
     
@@ -2297,7 +2298,7 @@ section {
     }
     
     .footer-bottom p {
-        font-size: 13px;
+        font-size: 12px;
     }
 }
 

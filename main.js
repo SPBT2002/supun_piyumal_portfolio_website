@@ -140,24 +140,3 @@ if (contactForm) {
     });
 }
 
-/* ---------------------------
-   EmailJS Contact Form
-----------------------------*/
-document.getElementById("contactForm").addEventListener("submit", function(event) {
-    event.preventDefault();
-
-    emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
-        from_name: document.getElementById("from_name").value,
-        from_email: document.getElementById("from_email").value,
-        subject: document.getElementById("subject").value,
-        message: document.getElementById("message").value
-    })
-    .then(function() {
-        alert("Message sent successfully!");
-        document.getElementById("contactForm").reset(); // Clear form
-    })
-    .catch(function(error) {
-        alert("Failed to send message. Please try again.");
-        console.log("EmailJS Error:", error);
-    });
-});

@@ -182,7 +182,7 @@ body
 {
     max-width: 800px;
     flex: 1;
-    margin-left: 400px;
+    margin-left: 200px;
 }
 
 @media (max-width: 1200px) {
@@ -663,13 +663,13 @@ section {
 }
 
 .progress-line.html span { width: 90%; }
-.progress-line.css span { width: 80%; }
-.progress-line.javascript span { width: 70%; }
-.progress-line.python span { width: 60%; }
-.progress-line.react span { width: 75%; }
-.progress-line.mongodb span { width: 50%; }
-.progress-line.angular span { width: 70%; }
-.progress-line.nodejs span { width: 65%; }
+.progress-line.css span { width: 85%; }
+.progress-line.javascript span { width: 85%; }
+.progress-line.python span { width: 80%; }
+.progress-line.react span { width: 78%; }
+.progress-line.mongodb span { width: 75%; }
+.progress-line.angular span { width: 80%; }
+.progress-line.nodejs span { width: 75%; }
 
 .progress-line span::after {
   position: absolute;
@@ -684,14 +684,14 @@ section {
   opacity: 0;
 }
 
-.progress-line.html span::after { content: "90%"; }
-.progress-line.css span::after { content: "80%"; }
-.progress-line.javascript span::after { content: "70%"; }
-.progress-line.python span::after { content: "60%"; }
-.progress-line.react span::after { content: "75%"; }
-.progress-line.mongodb span::after { content: "50%"; }
-.progress-line.angular span::after { content: "70%"; }
-.progress-line.nodejs span::after { content: "65%"; }
+.progress-line.html span::after
+.progress-line.css span::after
+.progress-line.javascript span::after
+.progress-line.python span::after
+.progress-line.react span::after
+.progress-line.mongodb span::after
+.progress-line.angular span::after
+.progress-line.nodejs span::after
 
 .progress-line span::before {
   content: "";
@@ -773,10 +773,10 @@ section {
   100% { stroke-dashoffset: -1; }
 }
 @keyframes animate-path1 { 100% { stroke-dashoffset: 50; } }
-@keyframes animate-path2 { 100% { stroke-dashoffset: 175; } }
-@keyframes animate-path3 { 100% { stroke-dashoffset: 125; } }
+@keyframes animate-path2 { 100% { stroke-dashoffset: 80; } }
+@keyframes animate-path3 { 100% { stroke-dashoffset: 85; } }
 @keyframes animate-path4 { 100% { stroke-dashoffset: 75; } }
-@keyframes animate-path5 { 100% { stroke-dashoffset: 75; } }
+@keyframes animate-path5 { 100% { stroke-dashoffset: 50; } }
 
 .radial-bar .percentage {
   position: absolute;
